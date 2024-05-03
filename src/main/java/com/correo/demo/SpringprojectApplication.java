@@ -17,11 +17,11 @@ public class SpringprojectApplication {
     
     @Bean
     public UsuarioImpDao usuarioDao() {
-        return new UsuarioImpDao(); // Instancia de la implementación concreta UsuarioImpDao
+        return new UsuarioImpDao();
     }
 
     @Bean
     public PedidoImpDao pedidoDao() {
-        return new PedidoImpDao(); // Instancia de la implementación concreta PedidoImpDao
+        return new PedidoImpDao();
     }
 }
